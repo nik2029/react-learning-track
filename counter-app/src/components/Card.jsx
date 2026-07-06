@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";  
  function Card({userName,age,Phn}){
     return(
              <div className="flex flex-col bg-gray-400 items-center gap-6 p-7 md:flex-row md:gap-8 rounded-5xl mb-3">
