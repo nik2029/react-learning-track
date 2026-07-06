@@ -31,10 +31,10 @@ export default function PasswordGenerator() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 flex justify-center items-center">
-      <div className="w-450px bg-gray-800 rounded-xl shadow-2xl p-6">
+    <div className="min-h-screen bg-gray-400 flex justify-center items-center">
+      <div className="w-4500px bg-cyan-400 rounded-xl shadow-2xl p-6">
 
-        <h1 className="text-3xl font-bold text-center text-orange-400 mb-6">
+        <h1 className="text-3xl font-bold text-center text-white mb-6">
           Password Generator
         </h1>
 
@@ -68,7 +68,7 @@ export default function PasswordGenerator() {
           />
 
           <p className="text-white mt-2">
-            Length: <span className="text-orange-400">{length}</span>
+            Length: <span className="text-black">{length}</span>
           </p>
         </div>
 

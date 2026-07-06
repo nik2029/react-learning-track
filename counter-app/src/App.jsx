@@ -1,6 +1,7 @@
 
 import './App.css'
 import Counter from './components/Counter'
+import CurrencyConverter from './components/CurrencyConverter'
 import PasswordGenerator from './components/PasswordGenerator'
 import TimerUsingHooks from './components/timerUsinghooks'
 
@@ -12,6 +13,8 @@ function App() {
   <Counter/>
 <TimerUsingHooks/>
 <PasswordGenerator/>
+
+<CurrencyConverter/>
   
   </>
 
