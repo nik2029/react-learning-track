@@ -1,6 +1,8 @@
 import { createContext, useState } from 'react'
 import './App.css'
 import ChildA from './component/ChildA';
+import Form from './component/Form';
+import 'tailwindcss'
 
 
   const nameCon = createContext();
@@ -31,6 +33,8 @@ function App() {
     </emailCon.Provider>
   </ageCon.Provider>
  </nameCon.Provider>
+
+ <Form/>
  </>
   )
 }
