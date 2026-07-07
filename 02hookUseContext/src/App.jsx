@@ -3,6 +3,7 @@ import './App.css'
 import ChildA from './component/ChildA';
 import Form from './component/Form';
 import 'tailwindcss'
+import UnmountFeature from './component/UnmountFeature';
 
 
   const nameCon = createContext();
@@ -35,6 +36,8 @@ function App() {
  </nameCon.Provider>
 
  <Form/>
+
+ <UnmountFeature/>
  </>
   )
 }
